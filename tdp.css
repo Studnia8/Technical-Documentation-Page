@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, tt, var, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	background-color: white;
+}
+
+#header{
+	margin-top: -50px;
+}
+
+.tdp-title{
+	padding-top: 20px;
+	font-size: 40px;
+	font-weight: 900;
+	margin: 50px 10px;
+	text-align: center;
+}
+
+.section-title{
+	font-size: 32px;
+	font-weight: 750;
+	margin: 25px 20px;
+}
+
+.nav-title{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 20px 30px;
+	border-bottom: solid;
+	border-color: rgba(0,22,22,0.4);
+}
+
+.nav-link{
+	padding: 30px 30px;
+	width: 200px;
+	height: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.nav-link:hover{
+	background-color: orange;
+}
+
+#navbar{
+	position: fixed;
+	overflow: scroll;
+	border-right: solid;
+	border-color: rgba(0,22,22,0.4);
+}
+
+#main-doc{
+	margin-left: 300px;
+}
+
+code, p{
+	font-size: 14px;
+	margin: 8px 40px;
+}
+
+ul{
+	margin: 15px 60px;
+}
+
+li{
+	margin: 4px 0px;
+}
+
+.example{
+	margin: 0px 50px;
+	background-color: #00AADD;
+	padding: 10px 0px 10px 0px;
+	border-radius: 10px;
+	width: 650px;
+}
+
+.footer{
+	font-size: 20px;
+	float: right;
+}
+
+@media (max-width: 700px){
+	.nav-link{
+		width: 75px;
+	}
+	.nav-title{
+		width: 75px;
+	}
+}
